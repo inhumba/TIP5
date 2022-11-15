@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../../fronts/Sarabun/Sarabun-Thin.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../fronts/Sarabun/Sarabun-ExtraLight.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../fronts/Sarabun/Sarabun-Light.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fronts/Sarabun/Sarabun-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../fronts/Sarabun/Sarabun-Medium.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fronts/Sarabun/Sarabun-SemiBold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fronts/Sarabun/Sarabun-Bold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'sarabun';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../../fronts/Sarabun/Sarabun-ExtraBold.ttf') format('ttf');
+}
+
+$sarabun: 'sarabun';

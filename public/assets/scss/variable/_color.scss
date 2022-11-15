@@ -1,0 +1,39 @@
+// First override some or all individual color variables
+$primary: #326cb3;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #211f1d;
+$hilight: #004293;
+$contrast: #c1272d;
+$contrast-hover: #8d1015;
+$yellow-dark: #ae841f;
+$yellow-light: #edaf1a;
+$dark-grey: #626262;
+$light-grey: #f8f8f8;
+$blue-grey: #455a64;
+$blue-light: #f0f7ff;
+
+// Then add them to your custom theme-colors map, together with any additional colors you might need
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  hilight: $hilight,
+  contrast: $contrast,
+  contrast-hover: $contrast-hover,
+  yellow-dark: $yellow-dark,
+  yellow-light: $yellow-light,
+  dark-grey: $dark-grey,
+  light-grey: $light-grey,
+  blue-grey: $blue-grey,
+  blue-light: $blue-light,
+);
