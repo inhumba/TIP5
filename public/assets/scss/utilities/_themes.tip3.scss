@@ -1,0 +1,77 @@
+/* ==========================================================================
+   #TIP3
+   ========================================================================== */
+.site-content {
+  font-size: size(16);
+}
+
+// Header
+.site-header {
+  background-color: $navy-color;
+}
+
+#mobilenav:not(.mm-menu) {
+  display: none;
+}
+
+.mobile-nav {
+  .group {
+    padding-right: 35px;
+    text-align: center;
+  }
+
+  .btn {
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 3px 10px;
+    width: auto;
+
+    &.is--active {
+      background-color: $red-color;
+      color: #ffffff;
+    }
+  }
+
+  .separate {
+    margin: 0 5px;
+  }
+}
+
+// Hero
+#hero {
+  background-color: $navy-color;
+  margin-bottom: 60px;
+  padding: 20px 0 0;
+  @media (max-width: 575.98px) {
+    margin-bottom: 100px;
+
+    .service-list-9 &,
+    .service-list-10 &,
+    .service-list-11 &,
+    .service-list-12 & {
+      margin-bottom: 170px;
+    }
+  }
+
+  .hero-content {
+    // background: $navy-color url(#{$img-path}/bg-hero.svg) no-repeat bottom
+    //   center;
+    background-size: cover;
+    padding-bottom: 120px;
+    position: relative;
+    text-align: center;
+  }
+
+  .topic {
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+
+  .subtopic {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+}

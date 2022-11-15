@@ -1,0 +1,130 @@
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.site-header {
+  //   background-color: $primary-color;
+  padding: 8px 0 7px;
+  position: relative;
+  @media (max-width: 1199.98px) {
+    padding: 13px 30px;
+
+    .logo {
+      margin-right: 70px;
+    }
+  }
+}
+
+.navbar-nav {
+  padding: 0;
+  @media (max-width: 1199.98px) {
+    justify-content: space-between;
+  }
+
+  .nav-item > a {
+    color: #fff;
+    display: block;
+    font-family: $sarabun;
+    font-size: 1em;
+  }
+}
+
+.navbar-nav {
+  margin-left: 0;
+
+  .nav-item {
+    margin: 0 30px 0 0;
+  }
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.navbar-dark {
+  .navbar-toggler {
+    border: none;
+  }
+}
+
+.meta {
+  span {
+    margin: 0 7px;
+  }
+
+  .group {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  .button {
+    padding: 9px 20px 11px;
+  }
+
+  .call {
+    padding-left: 20px;
+  }
+  a,
+  span {
+    color: #fff;
+
+    &.is--active,
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  .button {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    // border-radius: $button-border-radius;
+
+    &:hover,
+    &:focus {
+      border-color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .call {
+    // background: url(#{$img-path}/icon-phone.svg) no-repeat left center;
+    background-size: 14px 14px;
+    // color: $secondary-color;
+    // font-family: $superspace-bold;
+    font-size: 1.65em;
+
+    &:hover,
+    &:focus {
+      border-bottom: none;
+    }
+  }
+}
+
+#mobilenav:not(.mm-menu) {
+  display: none;
+}
+
+.mobile-nav {
+  .group {
+    padding-right: 35px;
+    text-align: center;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: 3px 10px;
+    width: auto;
+
+    &.is--active {
+      //   background-color: $secondary-color;
+      color: #fff;
+    }
+  }
+
+  .separate {
+    margin: 0 5px;
+  }
+}

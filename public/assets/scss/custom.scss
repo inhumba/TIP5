@@ -1,10 +1,15 @@
 @import '../../bootstrap-5.0.2/scss/functions';
 @import 'functions/functions';
+
 // variables
 @import 'variable/color';
 @import 'variable/typography';
 
-// Layout & components
-@import 'component/buttons.scss';
+//utilities
+@import 'utilities/utilities';
+@import 'utilities/themes.tip3';
 
+// Layout & components
+@import 'component/header';
+@import 'component/buttons';
 @import '../../bootstrap-5.0.2/scss/bootstrap.scss';
